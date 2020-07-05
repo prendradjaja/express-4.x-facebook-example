@@ -1,3 +1,5 @@
+See also: https://github.com/jaredhanson/passport-facebook
+
 This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
 [Passport](http://passportjs.org/) to authenticate users using Facebook.  Use
 this example as a starting point for your own web applications.
@@ -18,10 +20,10 @@ consumer secret needed to access Facebook's API.  Start the server with those
 variables set to the appropriate credentials.
 
 ```bash
-$ CLIENT_ID=__FACEBOOK_CLIENT_ID__ CLIENT_SECRET=__FACEBOOK_CLIENT_SECRET__ node server.js
+$ FACEBOOK_CLIENT_ID=(app id here)  FACEBOOK_CLIENT_SECRET=(app secret here)  node server.js
 ```
 
-Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
+Open a web browser and navigate to [http://localhost:8080/](http://localhost:8080/)
 to see the example in action.
 
 
